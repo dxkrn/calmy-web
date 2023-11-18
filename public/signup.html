@@ -3,19 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calmy | Sign In</title>
+    <title>Calmy | Sign Up</title>
     <link rel="stylesheet" href="/public/css/style.css" />
   </head>
   <body class="bg-main-bg bg-fixed">
-    <div class="flex flex-row w-screen h-screen items-center">
-      <div class="w-1/2 p-6">
-        <img src="/src/images/ill-signin.svg" alt="Sign In" />
-      </div>
+    <div class="flex flex-row w-screen items-center py-10">
       <div class="w-1/2 flex flex-col items-center justify-center">
-        <h1 class="text-4xl font-extrabold">Sign In</h1>
-        <p class="text-center px-24 pt-6">
-          Welcome Back Calmy’s Friend! Sign In with your email and let’s have
-          fun together!
+        <h1 class="text-4xl font-extrabold">Sign Up</h1>
+        <p class="text-center px-32 pt-6">
+          Hello, Folks! Create an account with your Email and let’s be friends!
         </p>
         <form action="">
           <div class="flex flex-col items-center pt-10">
@@ -30,7 +26,7 @@
             /><br />
           </div>
           <div class="flex flex-col items-center pt-10">
-            <label for="email" class="text-xl font-semibold pb-2"
+            <label for="password" class="text-xl font-semibold pb-2"
               >Password</label
             ><br />
             <input
@@ -41,19 +37,34 @@
               class="bg-white px-4 py-4 rounded-lg text-center text-base"
             /><br />
           </div>
+          <div class="flex flex-col items-center pt-10">
+            <label for="cPassword" class="text-xl font-semibold pb-2"
+              >Confirm Password</label
+            ><br />
+            <input
+              type="password"
+              id="cPassword"
+              name="cPassword"
+              value=""
+              class="bg-white px-4 py-4 rounded-lg text-center text-base"
+            /><br />
+          </div>
           <div class="flex flex-row items-center justify-center my-8">
             <a
               href="index.html"
               class="px-12 py-4 bg-primary rounded-full text-white"
             >
-              Sign In
+              Sign Up
             </a>
           </div>
         </form>
         <p class="text-base">
-          Didn’t have an account?
-          <span><a href="signup.html" class="font-bold">Sign Up</a></span>
+          Already have an account?
+          <span><a href="signin.html" class="font-bold">Sign In</a></span>
         </p>
+      </div>
+      <div class="w-1/2 p-6">
+        <img src="/src/images/ill-signup.svg" alt="Sign Up" />
       </div>
     </div>
   </body>
