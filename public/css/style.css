@@ -592,6 +592,10 @@ html {
   height: 2px;
 }
 
+.h-\[480px\] {
+  height: 480px;
+}
+
 .h-fit {
   height: -moz-fit-content;
   height: fit-content;
@@ -599,54 +603,6 @@ html {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-\[200px\] {
-  height: 200px;
-}
-
-.h-5\/6 {
-  height: 83.333333%;
-}
-
-.h-4\/5 {
-  height: 80%;
-}
-
-.h-12 {
-  height: 3rem;
-}
-
-.h-\[100vw\] {
-  height: 100vw;
-}
-
-.h-56 {
-  height: 14rem;
-}
-
-.h-\[400px\] {
-  height: 400px;
-}
-
-.h-\[500px\] {
-  height: 500px;
-}
-
-.h-\[50px\] {
-  height: 50px;
-}
-
-.h-\[250px\] {
-  height: 250px;
-}
-
-.h-\[240px\] {
-  height: 240px;
-}
-
-.h-\[480px\] {
-  height: 480px;
 }
 
 .w-1\/2 {
@@ -659,6 +615,14 @@ html {
 
 .w-10\/12 {
   width: 83.333333%;
+}
+
+.w-2\/5 {
+  width: 40%;
+}
+
+.w-3\/5 {
+  width: 60%;
 }
 
 .w-\[48\%\] {
@@ -676,66 +640,6 @@ html {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-2\/3 {
-  width: 66.666667%;
-}
-
-.w-2\/5 {
-  width: 40%;
-}
-
-.w-3\/5 {
-  width: 60%;
-}
-
-.w-4\/5 {
-  width: 80%;
-}
-
-.w-\[90\%\] {
-  width: 90%;
-}
-
-.w-\[80\%\] {
-  width: 80%;
-}
-
-.w-\[70\%\] {
-  width: 70%;
-}
-
-.w-\[65\%\] {
-  width: 65%;
-}
-
-.w-\[30\%\] {
-  width: 30%;
-}
-
-.w-\[400px\] {
-  width: 400px;
-}
-
-.w-\[50px\] {
-  width: 50px;
-}
-
-.w-\[100px\] {
-  width: 100px;
-}
-
-.w-\[300px\] {
-  width: 300px;
-}
-
-.w-\[250px\] {
-  width: 250px;
-}
-
-.w-\[240px\] {
-  width: 240px;
 }
 
 .transform {
@@ -874,11 +778,6 @@ html {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-primaryLight {
-  --tw-bg-opacity: 1;
-  background-color: rgb(164 167 255 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-5 {
@@ -1152,10 +1051,6 @@ html {
   font-weight: 600;
 }
 
-.font-normal {
-  font-weight: 400;
-}
-
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(10 12 28 / var(--tw-text-opacity));
@@ -1213,6 +1108,11 @@ html {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:brightness-75:hover {
+  --tw-brightness: brightness(.75);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .focus\:outline-none:focus {
