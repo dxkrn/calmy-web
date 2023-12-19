@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/public/css/style.css" />
     <link rel="icon" type="image/x-icon" href="/src/icons/favicon.svg" />
   </head>
-  <body class="bg-main-bg bg-fixed">
+  <body class="bg-main-bg bg-fixed scroll-smooth">
     <!-- HEADER START -->
     <header
       class="fixed w-screen backdrop-blur-xl bg-white bg-opacity-5"
@@ -77,7 +77,7 @@
           get ready to discover our features!
         </p>
         <a
-          href="#"
+          onclick="scrollToSection('first_feature')"
           class="bg-transparent border-2 border-primary text-primary px-12 py-3 rounded-full w-fit mt-12 hover:text-white hover:bg-primary"
         >
           See All</a
@@ -90,7 +90,10 @@
     <!-- SECTION HERO END -->
 
     <!-- SECTION CHATBOT START -->
-    <section class="flex flex-col w-screen h-screen py-6 bg-bgDark">
+    <section
+      class="flex flex-col w-screen h-screen py-6 bg-bgDark"
+      id="first_feature"
+    >
       <div class="flex flex-col items-center pb-4">
         <h2 class="text-base font-bold">#FEATURE</h2>
         <h1 class="text-4xl font-extrabold">VOICE CHATBOT</h1>
@@ -134,13 +137,13 @@
       <div class="flex flex-row w-screen p-6 justify-center items-center">
         <div class="w-2/5 flex flex-col justify-center px-6">
           <p class="text-base text-justify">
-            "The Lessons feature contains various materials or comprehensive
+            The Lessons feature contains various materials or comprehensive
             information about the mental health disorder, anxiety disorder.
             Users can adjust the text size from small, medium, to large to suit
             their reading comfort.
           </p>
           <p class="text-base text-justify pt-4">
-            "The Lessons feature contains various materials or comprehensive
+            The Lessons feature contains various materials or comprehensive
             information about the mental health disorder, anxiety disorder.
             Users can adjust the text size from small, medium, to large to suit
             their reading comfort.
@@ -178,25 +181,20 @@
         </div>
         <div class="w-2/5 flex flex-col justify-center px-6">
           <p class="text-base text-justify">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, ea
-            debitis? Labore culpa id sint maxime soluta, facere nam illo
-            laboriosam quas a numquam impedit voluptate! Consequatur, eos
-            molestiae modi expedita numquam quas, quasi laudantium ad odio
-            veritatis, in explicabo dolores magni dolorum minus amet
-            exercitationem dolore non aspernatur facilis.
+            Activities are features that users can use to carry out various
+            activities. In this feature, users will be given recommendations for
+            various positive activities. With positive activities, users will be
+            able to improve their lifestyle and can prevent, reduce and overcome
+            anxiety in users.
           </p>
           <p class="text-base text-justify pt-4">
-            With Voice Chatbot, you can do many things you want, such as:
+            With this "activities" feature, users can carry out various
+            activities, such as:
           </p>
           <ol class="list-disc px-6">
-            <li class="text-base text-justify">
-              Inquire about Anxiety Disorder
-            </li>
-            <li class="text-base text-justify">
-              Find out how to prevent Anxiety Disorder
-            </li>
-            <li class="text-base text-justify">Share your daily life</li>
-            <li class="text-base text-justify">and more</li>
+            <li class="text-base text-justify">Exercise</li>
+            <li class="text-base text-justify">Challenges</li>
+            <li class="text-base text-justify">Self-care</li>
           </ol>
         </div>
       </div>
@@ -212,31 +210,19 @@
       <div class="flex flex-row w-screen p-6 justify-center items-center">
         <div class="w-2/5 flex flex-col justify-center px-6">
           <p class="text-base text-justify">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, ea
-            debitis? Labore culpa id sint maxime soluta, facere nam illo
-            laboriosam quas a numquam impedit voluptate! Consequatur, eos
-            molestiae modi expedita numquam quas, quasi laudantium ad odio
-            veritatis, in explicabo dolores magni dolorum minus amet
-            exercitationem dolore non aspernatur facilis.
+            Daily journal is a feature that can be used by users to record their
+            daily activities. With this feature, users can record mood, weather
+            and write diaries freely in the form of text, images or audio
+            recordings. This feature is provided as a personal diary that can be
+            viewed and filled in whenever the user wants to fill it in.
           </p>
-          <p class="text-base text-justify pt-4">
-            "The Lessons feature contains various materials or comprehensive
-            information about the mental health disorder, anxiety disorder.
-            Users can adjust the text size from small, medium, to large to suit
-            their reading comfort.
-          </p>
+          <p class="text-base text-justify pt-4">In this feature, users can:</p>
           <ol class="list-disc px-6">
+            <li class="text-base text-justify">Choose a date</li>
+            <li class="text-base text-justify">Enter and view notes</li>
             <li class="text-base text-justify">
-              Understanding Anxiety Disorder
+              Enter mood and weather conditions
             </li>
-            <li class="text-base text-justify">
-              How to prevent Anxiety Disorder
-            </li>
-            <li class="text-base text-justify">
-              How to manage Anxiety Disorder
-            </li>
-            <li class="text-base text-justify">Relaxation tips</li>
-            <li class="text-base text-justify">and much more</li>
           </ol>
         </div>
         <div class="w-3/5 h-[480px] flex flex-row justify-between">
@@ -258,24 +244,26 @@
         </div>
         <div class="w-2/5 flex flex-col justify-center px-6">
           <p class="text-base text-justify">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, ea
-            debitis? Labore culpa id sint maxime soluta, facere nam illo
-            laboriosam quas a numquam impedit voluptate! Consequatur, eos
-            molestiae modi expedita numquam quas, quasi laudantium ad odio
-            veritatis, in explicabo dolores magni dolorum minus amet
-            exercitationem dolore non aspernatur facilis.
+            The Consultation feature is a feature that can be used if the user
+            wants to talk about or consult about things they have experienced
+            with experts, namely psychologists or psychiatrists. The
+            consultation feature provides free consultation services within a
+            certain time period. If the user requires consultation services with
+            a psychologist outside of these times, the user will be given
+            recommendations for psychologist services available in their
+            respective areas.
           </p>
           <p class="text-base text-justify pt-4">
-            With Voice Chatbot, you can do many things you want, such as:
+            In this feature, users will:
           </p>
           <ol class="list-disc px-6">
             <li class="text-base text-justify">
-              Inquire about Anxiety Disorder
+              Get recommendations for nearest consultation
             </li>
+            <li class="text-base text-justify">Get a free consultation</li>
             <li class="text-base text-justify">
-              Find out how to prevent Anxiety Disorder
+              Share stories and get solutions from experts
             </li>
-            <li class="text-base text-justify">Share your daily life</li>
             <li class="text-base text-justify">and more</li>
           </ol>
         </div>
@@ -292,31 +280,26 @@
       <div class="flex flex-row w-screen p-6 justify-center items-center">
         <div class="w-2/5 flex flex-col justify-center px-6">
           <p class="text-base text-justify">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, ea
-            debitis? Labore culpa id sint maxime soluta, facere nam illo
-            laboriosam quas a numquam impedit voluptate! Consequatur, eos
-            molestiae modi expedita numquam quas, quasi laudantium ad odio
-            veritatis, in explicabo dolores magni dolorum minus amet
-            exercitationem dolore non aspernatur facilis.
+            Anxiety Disorder Test is a feature provided to measure the level of
+            anxiety experienced by users. This feature provides several
+            questions that users can answer according to their respective
+            conditions. From these answers, test results will appear which are
+            the user's anxiety level.
           </p>
           <p class="text-base text-justify pt-4">
-            "The Lessons feature contains various materials or comprehensive
-            information about the mental health disorder, anxiety disorder.
-            Users can adjust the text size from small, medium, to large to suit
-            their reading comfort.
+            In this feature, users will:
           </p>
           <ol class="list-disc px-6">
+            <li class="text-base text-justify">Answer 14 questions</li>
             <li class="text-base text-justify">
-              Understanding Anxiety Disorder
+              Choose answer according to user's conditions
             </li>
             <li class="text-base text-justify">
-              How to prevent Anxiety Disorder
+              See the results of the anxiety test
             </li>
             <li class="text-base text-justify">
-              How to manage Anxiety Disorder
+              Get recommendations from test results
             </li>
-            <li class="text-base text-justify">Relaxation tips</li>
-            <li class="text-base text-justify">and much more</li>
           </ol>
         </div>
         <div class="w-3/5 h-[480px] flex flex-row justify-between">
@@ -338,25 +321,24 @@
         </div>
         <div class="w-2/5 flex flex-col justify-center px-6">
           <p class="text-base text-justify">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, ea
-            debitis? Labore culpa id sint maxime soluta, facere nam illo
-            laboriosam quas a numquam impedit voluptate! Consequatur, eos
-            molestiae modi expedita numquam quas, quasi laudantium ad odio
-            veritatis, in explicabo dolores magni dolorum minus amet
-            exercitationem dolore non aspernatur facilis.
+            SOS is a feature provided to deal with emergencies. The emergency
+            situation referred to is when a user who suffers from an anxiety
+            disorder feels symptoms suddenly recur and he needs help to help him
+            feel calm again. In this SOS feature, users will be given guidance
+            to carry out in stages to provide a feeling of calm. If all stages
+            have been carried out and the user feels they need further
+            treatment, the user will be given the option to contact the
+            emergency call center.
           </p>
-          <p class="text-base text-justify pt-4">
-            With Voice Chatbot, you can do many things you want, such as:
-          </p>
+          <p class="text-base text-justify pt-4">With SOS, users can:</p>
           <ol class="list-disc px-6">
             <li class="text-base text-justify">
-              Inquire about Anxiety Disorder
+              Listen to or read emergency instructions
             </li>
             <li class="text-base text-justify">
               Find out how to prevent Anxiety Disorder
             </li>
-            <li class="text-base text-justify">Share your daily life</li>
-            <li class="text-base text-justify">and more</li>
+            <li class="text-base text-justify">Contact emergency contacts</li>
           </ol>
         </div>
       </div>
@@ -497,6 +479,15 @@
         }
         lastScrollTop = scrollTop;
       });
+    </script>
+
+    <script>
+      function scrollToSection(sectionId) {
+        var section = document.getElementById(sectionId);
+        if (section) {
+          section.scrollIntoView({ behavior: "smooth" });
+        }
+      }
     </script>
   </body>
 </html>
