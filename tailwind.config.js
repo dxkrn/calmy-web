@@ -21,6 +21,9 @@ module.exports = {
       backgroundImage: {
         "main-bg": "url('/src/images/background.svg')",
       },
+      dropShadow: {
+        lg: "0 10px 8px rgba(67, 73, 255, 0.25)",
+      },
     },
   },
   plugins: [],
